@@ -321,7 +321,7 @@ with st.sidebar:
 # ----------------------
 @st.cache_data(ttl=3600)
 def load_data(ticker, start, end):
-    df = yf.download(ticker, start=start, end=end, progress=False)
+    df = yf.download(ticker, start=start, end=end, progress=False, threads=True, auto_adjust=True, impersonate=None)
     return df
 
 @st.cache_resource
@@ -982,3 +982,4 @@ for check in verification_checks:
 # --- Footer ---
 st.markdown("---")
 st.markdown("Developed by **Jeet Bhowmick**")
+
