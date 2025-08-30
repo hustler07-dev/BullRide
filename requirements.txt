@@ -1,0 +1,24 @@
+# Web App Framework
+streamlit
+
+# Data Handling
+pandas
+numpy
+
+# Data Sources / APIs
+pandas_datareader
+requests
+yfinance
+
+# Machine Learning / Deep Learning
+tensorflow
+keras
+scikit-learn
+h5py
+
+# Visualization
+matplotlib
+plotly
+
+# Notebook Support (optional, for experiments)
+jupyter
