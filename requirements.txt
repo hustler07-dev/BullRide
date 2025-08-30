@@ -11,7 +11,7 @@ requests
 yfinance
 
 # Machine Learning / Deep Learning
-tensorflow
+tensorflow-cpu
 keras
 scikit-learn
 h5py
@@ -19,6 +19,8 @@ h5py
 # Visualization
 matplotlib
 plotly
+seaborn
 
 # Notebook Support (optional, for experiments)
 jupyter
+
